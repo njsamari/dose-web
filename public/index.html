@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dose — The coffee journal for people who care</title>
+<meta name="description" content="Dose is a coffee journal and social app for home espresso enthusiasts and specialty coffee drinkers. Log every brew, track tasting notes, follow great palates.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --espresso: #1C1009;
+    --cream: #F2E8D9;
+    --amber: #C8742A;
+    --stone-100: #F7F3EE;
+    --stone-300: #D4C4B0;
+    --stone-400: #A89078;
+    --stone-500: #7A6352;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background: var(--espresso);
+    color: var(--cream);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 480px; text-align: center; }
+  .wordmark {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--amber);
+    display: inline-block;
+  }
+  .tagline {
+    font-size: 14px;
+    color: var(--stone-400);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+  }
+  .lede {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+    color: var(--cream);
+  }
+  .lede em { color: var(--amber); font-style: italic; }
+  .body-text {
+    font-size: 16px;
+    color: var(--stone-300);
+    margin-bottom: 48px;
+    line-height: 1.7;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 32px;
+  }
+  .link {
+    color: var(--cream);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 14px 20px;
+    border: 1px solid rgba(242,232,217,0.2);
+    border-radius: 100px;
+    transition: all 0.2s;
+  }
+  .link:hover {
+    background: rgba(242,232,217,0.06);
+    border-color: rgba(242,232,217,0.4);
+  }
+  .footer {
+    margin-top: 64px;
+    font-size: 11px;
+    color: var(--stone-500);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="wordmark">Dose<span class="dot"></span></div>
+    <p class="tagline">The coffee journal</p>
+    <p class="lede">Coming soon to <em>iOS and Android</em>.</p>
+    <p class="body-text">
+      Dose is a journal and social app for people who take their coffee seriously. Log every brew, track tasting notes, build your palate, and follow other home baristas.
+    </p>
+    <div class="links">
+      <a class="link" href="/privacy">Privacy Notice</a>
+      <a class="link" href="/terms">Terms of Use</a>
+    </div>
+    <p class="footer">Dose · Coffee Journal · 2026</p>
+  </div>
+</body>
+</html>
